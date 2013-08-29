@@ -5,7 +5,7 @@ use strict;
 sub print_arr;
 my %m;
 my %p;
-my @keys;
+my %keys;
 my ($k, $v);
 
 while (<>) {
@@ -21,7 +21,7 @@ while (<>) {
 	    $p{$k} = $v;
 	}
 
-	push @keys, $k;
+	$keys{$k} = 1;
     }    
 }
 
@@ -30,7 +30,7 @@ my @only_p;
 my @both;
 my ($has_m, $has_p);
 
-foreach (@keys) {
+foreach (keys %keys) {
     $k = $_;
 
     $has_m = defined($m{$k});
