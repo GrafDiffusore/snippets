@@ -3,8 +3,7 @@ snippets
 
 Misc short code snippets to help Java developer to get through his/her daily routines.
 
-<ul>
-<li> <b>props/</b> -- code for working with Java property files which allows to see diffs in properties files easily:</li>
+<b>props/</b> -- code for working with Java property files which allows to see diffs in properties files easily:</li>
 
  <ul>
  <li>PropsPrinter.java -- prints input *.properties file w/o comments and blank lines</li>
@@ -45,5 +44,5 @@ Misc short code snippets to help Java developer to get through his/her daily rou
   $ cd ./props && make
  </pre>
  is helpful as well.
-</ul>
+
 
