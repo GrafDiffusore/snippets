@@ -1,7 +1,7 @@
 snippets
 ========
 
-Misc short code snippets to help Java developer's get through his/her routines.
+Misc short code snippets to help Java developer to get through his/her daily routines.
 
 <ul>
 <li> <b>props/</b> -- code for working with Java property files which allows to see diffs in properties files easily:</li>
