@@ -29,7 +29,7 @@ Misc short code snippets to help Java developer's get through his/her routines.
   $ diff -uBw *.filtered | perl -f cmp_props.pl
  </pre>
 
- Additionally, you can use above to compare **all** properties between two directories:
+ Additionally, you can use above to compare <b>all</b> properties between two directories:
  <pre>
   $ cd ~/dir1
   $ bash ./concat_props.sh
